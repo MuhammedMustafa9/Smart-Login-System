@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container d-flex justify-content-center mt-5">
+                <div class="w-75 row text-white my-5 py-5 text-center">
+                    <h1>Smart Login System</h1>
+                    <div class="px-5 m-auto input mt-3">
+                        <input id="signinEmail" type="email" name="email" placeholder="Enter Your Email" class="w-100 rounded">
+                    </div>
+                    <div class="px-5 m-auto input mt-3">
+                        <input id="signinPass" type="password" name="pass" placeholder="Enter Your Password" class="w-100 rounded">
+                    </div>
+                    <p class="signinIncorrect px-5 mt-3 text-danger">
+                    </p>
+                    <div class="button px-5 my-3">
+                        <button class="btn w-100" onclick="signIn()">Login</button>
+                    </div>
+                    <p>Don’t have an account? <a href="./signup.html">Sign Up</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
